@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+ h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+ h1 {
+	font-family: 'Montserrat', sans-serif;
+ }
+  r {
+	font-family: 'Montserrat', sans-serif;
+  }
+  u1 {
+	font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+	font-family: 'Montserrat', sans-serif;
+  }
+
+  li {
+	font-family: 'Montserrat', sans-serif;
+  }
+
+  button {
+	font-family: 'Montserrat', sans-serif;
+  }
+
+  label {
+    font-family: 'Montserrat', sans-serif;
+   }
+
+.class-name{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	margin-left: 140px;
+}
+
+#element{
+    margin-left: 525px;
+	margin-top: -101px;
+}
+
+.imsorrystyle{
+    margin-left: 460px;
+    margin-top: -50px;
+}
+
+.position{
+	margin-left: 130px;
+	margin-top: 15px;
+}
+.tekst{
+	margin-left: 468px;
+	margin-top: -160px;
+}
+
+.previu{
+	margin-left: -7px;
+	margin-top: 50px
+}
+
+.tovary{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.two{
+	margin-left: 130px;
+}
+
+.puma{
+	margin-left: 820px;
+	margin-top: -288px;
+}
+
+.guess{
+	margin-left: 820px;
+	margin-top: -267px;
+}
+
+.celine{
+	margin-left: 820px;
+	margin-top: -250px;
+}
+
+.cart{
+    margin-left: 20px; 
+}
+.color{
+	background-color: rgb(220, 200, 176);
+}
+
+.reiestrachiia{
+	margin-left: 100px;
+	margin-top: -20px
+}
+
+.reiestrachiiaaa{
+	margin-left: 530px;
+	margin-top: 70px
+}
+
+.modeli{
+	margin-left: 40px;
+	margin-top: 50px
+}
+
+.FORYOU{
+	margin-left: 30px;
+	margin-top: 35px
+}
+
+.pronas{
+	margin-left: 760px;
+	margin-top: -565px
+}
+
+.pofigizm{
+	margin-left: -767px;
+	margin-top: 100px
+} 
+.magaz{
+	margin-left: -745px;
+	margin-top: 0px
+}
+
+.telephone{
+	margin-left: 325px;
+	margin-top: 0px
+}
+
+.nomer{
+	margin-left: 495px;
+	margin-top: -142px
+}
+
+.insta{
+	margin-left: 330px;
+	margin-top: 70px
+}
+
+.amber{
+	margin-left: 495px;
+	margin-top: -120px
+}
+
+.fendi{
+	margin-left: 325px;
+	margin-top: 70px
+}
+
+.nomer2{
+	margin-left: 495px;
+	margin-top: -142px
+}
+
+.punkt{
+    margin-left: 0px;
+	margin-top: 30px 
+}
+
+.heart{
+    margin-left: 1040px;
+	margin-top: -52px
+}
+
+.account{
+    margin-left: 1087px;
+	margin-top: -33px
+}
+
+.search-box{
+	position: absolute;
+    top: 50%;
+    Left: 50%;
+    transform: translate(-130%, 50%) ;
+	background-color: #1c1919;
+    height: 40px;
+    border-radius: 40px;
+    padding: 2px;
+	margin-top: 545px;
+	margin-left: 770px;
+}
+
+.search-btn{
+	color: #000000; 
+    float: right;;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+	margin-top: -40px;
+}
+
+.search-txt{
+	border: none;
+    background: none;
+    outline: none;
+    float: left; 
+	padding: 0; 
+	color: rgb(255, 255, 255); 
+	font-size: 15px;
+    transition: 0.450;
+    Line-height: 40px;
+	width: 240px;
+    margin-left: 7px;
+}
+
+
+.menu {
+	display: flex;
+}
+
+.menu li{
+	width: 200px;
+	list-style: none;
+	background: #1c1919; position: relative;
+}
+	
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 0 10px;
+	height: 40px;
+	Line-height: 40px; 
+	transition: all .5s;
+}
+	.menu a:hover {
+	background: #2e2e31;
+}
+
+.menu ul{
+	position: absolute;
+	left: 0; top: 100%;
+	display: none;
+	padding: 0;
+	}
+	
+.menu li:hover ul{
+	display: block;
+}
+
+.tryknopky{
+	margin-top: -110px;
+	margin-left: 375px;
+}
+
+.is{
+    margin-top: -80px;
+	margin-left: -140px;
+}
+
+.osoby{
+    margin-top: -374px;
+	margin-left: 250px;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+#myBtn:hover {
+background-color: #2e2e31; 
+}
+
+.image-two {
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden;
+	margin-left: 800px;
+	margin-top: -499px;
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.image-two img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-two:hover .image-text {
+    opacity: 0; 
+}
+
+.image-two:hover img {
+    opacity: 1; 
+}
+
+.image-thre {
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden;
+	margin-left: 140px;
+	margin-top: 0px;
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.image-thre img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-thre:hover .image-text {
+    opacity: 0; 
+}
+
+.image-thre:hover img {
+    opacity: 1; 
+}
+
+.image-four {
+    position: relative;
+    width: 500px;
+    height: 500px; 
+    overflow: hidden;
+	margin-left: 800px;
+	margin-top: -500px;
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.image-four img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-four:hover .image-text {
+    opacity: 0; 
+}
+
+.image-four:hover img {
+    opacity: 1; 
+}
+
+.image-five {
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden;
+	margin-left: 140px;
+	margin-top: 0px;
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.image-five img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-five:hover .image-text {
+    opacity: 0; 
+}
+
+.image-five:hover img {
+    opacity: 1; 
+}
+
+.image-six {
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden;
+	margin-left: 800px;
+	margin-top: -500px;
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.image-six img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-six:hover .image-text {
+    opacity: 0; 
+}
+
+.image-six:hover img {
+    opacity: 1; 
+}
+
+.image-one {
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden;
+	margin-left: 140px;
+	margin-top: 0x;
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.image-one img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-one:hover .image-text {
+    opacity: 0; 
+}
+
+.image-one:hover img {
+    opacity: 1; 
+}
+
+.addtocart {
+	display: flex;
+}
+
+.addtocart {
+	width: 200px;
+	list-style: none;
+	background: #1c1919; position: relative;
+}
+	
+.addtocart a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 0 10px;
+	height: 40px;
+	Line-height: 40px; 
+	transition: all .5s;
+}
+
+ a:hover {
+	background: #2e2e31;
+}
+
+.add-to-cart ul{
+	position: absolute;
+	left: 0; top: 100%;
+	display: none;
+	padding: 0;
+    margin-top: -20px;
+}
+	
+.add-to-cart li:hover ul{
+	display: block;
+}
+
+.add-to-cart {
+	display: flex;
+}
+
+.add-to-cart {
+	width: 265px;
+	list-style: none;
+	background: #1c1919; 
+    position: relative;
+}
+	
+.add-to-cart a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	height: 40px;
+	Line-height: 40px; 
+	transition: all .5s;
+}
+
+ a:hover {
+	background: #2e2e31;
+}
+
+.add-to-cart ul{
+	position: absolute;
+	left: 0; 
+    top: 100%;
+	display: none;
+	padding: 0;
+	}
+	
+.add-to-cart li:hover ul{
+	display: block;
+}
+
+.tryknopkyrei{
+	margin-top: 120px;
+	margin-left: 380px;
+}
+
+.st {
+    margin-top: 0px;
+	margin-left: 450px;
+}
+
+.tryknopkytov{
+	margin-left: 380px;
+}
+
+.tryknopkyrei{
+    margin-left: 380px;
+    margin-top: 140px;
+}
+
+.tryknopkycon{
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.tryknopkyconfi{
+    margin-left: 380px;
+    margin-top: 40px;
+}
+
+.tryknopkypro{
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.polcon{
+    margin-top: 38px;
+    margin-left: 449px;
+}
+
+.osnconfi{
+    margin-left: 10px;
+}
+
+.redag {
+	display: flex;
+}
+
+.redag {
+	width: 160px;
+	list-style: none;
+	background: #1c1919; 
+    position: relative;
+    margin-left: 15px;
+    margin-top: -86px;
+}
+	
+.redag a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	height: 40px;
+	Line-height: 40px; 
+	transition: all .5s;
+}
+
+.vashqr{
+    margin-top: -165px;
+    margin-left: 1225px;
+}
+
+.qrcode{
+    margin-top: -300px;
+    margin-left: 910px;
+}
+
+.pereity {
+	display: flex;
+}
+
+.pereity {
+	width: 160px;
+	list-style: none;
+	background: #1c1919; 
+    position: relative;
+    margin-left: 1228px;
+    margin-top: 20px;
+}
+	
+.pereity a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	height: 40px;
+	Line-height: 40px; 
+	transition: all .5s;
+    margin-left: 13px;
+}
